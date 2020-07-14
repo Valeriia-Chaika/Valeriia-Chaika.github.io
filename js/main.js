@@ -29,6 +29,5 @@ for (let i = 0; i < elements.length; i++) {
     const img = imgElements[0]
     const workName = elements[i].getAttribute('data-work')
     img.src = `img/works/${workName}.png`
-    console.log(img.src)
   })
 }
